@@ -1,0 +1,13 @@
+[
+    {
+        "user": {
+        	"name": "clark@rently.com",
+            "password": "12345",
+            "name_prod": "nayna@bitcanny.com",
+            "password_prod": "nayna@rently",
+            "name_Stagging": "clark@rently.com",
+            "password_Stagging": "12345"
+         
+        }
+    }
+]

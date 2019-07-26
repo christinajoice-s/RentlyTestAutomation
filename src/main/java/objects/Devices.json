@@ -1,0 +1,12 @@
+[{
+"device":{
+"device_button":"By.xpath('//span[text()='Devices']/..')",
+"deviceList_select":"By.name('locktypeFilter')",
+"deviceList_properties":"By.xpath('//ul[@class='lock-device-list']//div[@class='row lock-device-list-row']')",
+"propertiesList_select":"By.xpath('//label[text()='Properties']/..//input')",
+"confirmPopup_button":"By.xpath('//*[text()='No Thanks']')",
+"termsAndCondition_button":"By.xpath('//input[@name='commit']')",
+"":""
+}
+}
+]

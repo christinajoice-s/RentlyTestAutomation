@@ -1,0 +1,694 @@
+[2019-07-25 17:29:21] Executing bootstrap tasks
+[2019-07-25 17:29:21] OpenJDK Runtime Environment 11.0.3+7-Ubuntu-1ubuntu218.04.1
+[2019-07-25 17:29:21] Product org.eclipse.products.epp.package.java.2019-06
+[2019-07-25 17:29:21] Bundle org.eclipse.oomph.setup 1.13.0.v20190530-1228, build=4030, branch=ed8d2fdcc99c1d3461399fc1bee02645433fa697
+[2019-07-25 17:29:21] Bundle org.eclipse.oomph.setup.core 1.13.0.v20190531-1228, build=4030, branch=ed8d2fdcc99c1d3461399fc1bee02645433fa697
+[2019-07-25 17:29:21] Bundle org.eclipse.oomph.setup.p2 1.11.0.v20190530-1228, build=4030, branch=ed8d2fdcc99c1d3461399fc1bee02645433fa697
+[2019-07-25 17:29:21] Performing P2 Director (Eclipse IDE for Java Developers (2019-06))
+[2019-07-25 17:29:21] Offline = false
+[2019-07-25 17:29:21] Mirrors = true
+[2019-07-25 17:29:21] Resolving 23 requirements from 3 repositories to /home/rently/gitFramework/RentlyTestAutomation/eclipse
+[2019-07-25 17:29:21] Requirement epp.package.java [4.12.0,5.0.0)
+[2019-07-25 17:29:21] Requirement org.eclipse.platform.feature.group [4.12.0,5.0.0)
+[2019-07-25 17:29:21] Requirement org.eclipse.rcp.feature.group [4.12.0,5.0.0)
+[2019-07-25 17:29:21] Requirement org.eclipse.buildship.feature.group
+[2019-07-25 17:29:21] Requirement org.eclipse.eclemma.feature.feature.group
+[2019-07-25 17:29:21] Requirement org.eclipse.egit.feature.group
+[2019-07-25 17:29:21] Requirement org.eclipse.egit.mylyn.feature.group
+[2019-07-25 17:29:21] Requirement org.eclipse.epp.mpc.feature.group
+[2019-07-25 17:29:21] Requirement org.eclipse.jdt.feature.group
+[2019-07-25 17:29:21] Requirement org.eclipse.jgit.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.m2e.feature.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.m2e.logback.feature.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.mylyn.git.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.mylyn.hudson.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.mylyn.java_feature.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.mylyn_feature.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.tips.feature.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2019-07-25 17:29:22] Requirement org.eclipse.oomph.setup.feature.group
+[2019-07-25 17:29:22] Repository http://download.eclipse.org/technology/epp/packages/2019-06
+[2019-07-25 17:29:22] Repository http://download.eclipse.org/releases/2019-06/201906191000
+[2019-07-25 17:29:22] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2019-07-25 17:29:49] Calculating requirements and dependencies.
+[2019-07-25 17:29:50] Computing prerequisite plan
+[2019-07-25 17:29:58] Fetching artifacts.xml.xz from http://download.eclipse.org/releases/2019-06/201906191000/
+[2019-07-25 17:30:05] Fetching compositeArtifacts.jar from http://download.eclipse.org/oomph/updates/milestone/latest/ (445B)
+[2019-07-25 17:30:06] Fetching artifacts.jar from http://download.eclipse.org/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ (9.02kB)
+[2019-07-25 17:30:07] Fetching artifacts.xml.xz from http://download.eclipse.org/technology/epp/packages/2019-06/
+[2019-07-25 17:30:07] Collecting 38 artifacts from http://download.eclipse.org/oomph/updates/milestone/latest
+[2019-07-25 17:30:08] Downloading org.eclipse.oomph.setup.p2.edit
+[2019-07-25 17:30:08] Downloading org.eclipse.oomph.p2
+[2019-07-25 17:30:08] Downloading org.eclipse.oomph.jreinfo.ui
+[2019-07-25 17:30:08] Downloading org.eclipse.oomph.setup.core
+[2019-07-25 17:30:08] Downloading org.eclipse.oomph.setup
+[2019-07-25 17:30:08] Downloading org.eclipse.oomph.predicates.edit
+[2019-07-25 17:30:08] Downloading org.eclipse.oomph.extractor.lib
+[2019-07-25 17:30:08] Downloading org.eclipse.oomph.jreinfo
+[2019-07-25 17:30:08] Downloading org.eclipse.oomph.resources.edit
+[2019-07-25 17:30:08] Downloading org.eclipse.oomph.p2
+[2019-07-25 17:30:09] Fetching org.eclipse.oomph.p2_1.13.0.v20190704-1252.jar from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/features/ (19.11kB)
+[2019-07-25 17:30:10] Downloading org.apache.commons.logging
+[2019-07-25 17:30:13] Fetching org.apache.commons.logging_1.2.0.v20180409-1502.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (33.71kB)
+[2019-07-25 17:30:14] Fetching org.eclipse.oomph.jreinfo_1.11.0.v20190523-0419.jar.pack.gz from http://mirror.rise.ph/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (17.79kB)
+[2019-07-25 17:30:14] Downloading org.eclipse.oomph.base
+[2019-07-25 17:30:15] Fetching org.eclipse.oomph.setup_1.14.0.v20190705-1542.jar from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/features/ (19.16kB)
+[2019-07-25 17:30:16] Fetching org.eclipse.oomph.resources.edit_1.10.0.v20180706-1242.jar.pack.gz from http://mirror.kakao.com/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (14.16kB)
+[2019-07-25 17:30:16] Fetching org.eclipse.oomph.extractor.lib_1.6.0.v20190410-0601.jar.pack.gz from https://ftp.harukasan.org/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (13.91kB)
+[2019-07-25 17:30:16] Downloading org.eclipse.nebula.widgets.tablecombo
+[2019-07-25 17:30:17] Downloading org.eclipse.oomph.workingsets.edit
+[2019-07-25 17:30:17] Downloading org.eclipse.oomph.setup.p2
+[2019-07-25 17:30:17] Fetching org.eclipse.oomph.setup.p2_1.12.0.v20190704-1252.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (22.7kB)
+[2019-07-25 17:30:18] Downloading org.eclipse.oomph.p2.edit
+[2019-07-25 17:30:18] Fetching org.eclipse.oomph.p2.edit_1.11.0.v20190323-1130.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (20.37kB)
+[2019-07-25 17:30:18] Downloading org.eclipse.oomph.workingsets
+[2019-07-25 17:30:18] Fetching org.eclipse.oomph.workingsets_1.10.0.v20180706-1242.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (21.34kB)
+[2019-07-25 17:30:18] Downloading org.eclipse.oomph.setup.sync
+[2019-07-25 17:30:19] Fetching org.apache.commons.logging_1.2.0.v20180409-1502.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/
+[2019-07-25 17:30:19] Fetching org.eclipse.oomph.setup.sync_1.10.0.v20180706-1242.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (45.95kB)
+[2019-07-25 17:30:19] Fetching org.eclipse.oomph.base_1.12.0.v20190705-1018.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (33.96kB)
+[2019-07-25 17:30:19] Downloading org.eclipse.oomph.base.edit
+[2019-07-25 17:30:19] Fetching org.eclipse.oomph.base.edit_1.12.0.v20190702-1454.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (24.53kB)
+[2019-07-25 17:30:19] Downloading org.eclipse.oomph.setup.doc
+[2019-07-25 17:30:19] Downloading org.eclipse.oomph.setup.ui
+[2019-07-25 17:30:19] Fetching org.eclipse.oomph.setup.doc_1.10.0.v20180706-1242.jar from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (2.49MB)
+[2019-07-25 17:30:19] Downloading org.eclipse.oomph.ui
+[2019-07-25 17:30:19] Fetching org.eclipse.oomph.setup.ui_1.14.0.v20190704-1252.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (226.65kB)
+[2019-07-25 17:30:20] Fetching org.eclipse.oomph.ui_1.12.0.v20190705-0417.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (117.86kB)
+[2019-07-25 17:30:20] Fetching org.eclipse.oomph.setup.p2.edit_1.11.0.v20190702-1454.jar.pack.gz from http://mirror.rise.ph/eclipse//oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (13.46kB)
+[2019-07-25 17:30:20] Downloading org.eclipse.oomph.setup
+[2019-07-25 17:30:20] Fetching org.eclipse.oomph.setup_1.14.0.v20190704-1252.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (136.16kB)
+[2019-07-25 17:30:20] Fetching org.eclipse.oomph.setup.doc_1.10.0.v20180706-1242.jar from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/
+[2019-07-25 17:30:20] Downloading org.eclipse.oomph.setup.ui.questionnaire
+[2019-07-25 17:30:20] Fetching org.eclipse.oomph.setup.ui_1.14.0.v20190704-1252.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/
+[2019-07-25 17:30:20] Fetching org.eclipse.oomph.setup.ui.questionnaire_1.10.0.v20180706-1242.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (287.15kB)
+[2019-07-25 17:30:21] Fetching org.eclipse.oomph.workingsets.edit_1.10.0.v20180706-1242.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (16.27kB)
+[2019-07-25 17:30:21] Downloading org.apache.httpcomponents.httpclient
+[2019-07-25 17:30:21] Fetching org.apache.httpcomponents.httpclient_4.5.6.v20190213-1430.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (329.71kB)
+[2019-07-25 17:30:21] Downloading org.eclipse.oomph.p2.doc
+[2019-07-25 17:30:21] Fetching org.eclipse.oomph.predicates.edit_1.10.0.v20180706-1242.jar.pack.gz from http://ftp.daumkakao.com/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (19.83kB)
+[2019-07-25 17:30:21] Downloading org.apache.commons.codec
+[2019-07-25 17:30:21] Fetching org.eclipse.oomph.p2.doc_1.10.0.v20180706-1242.jar from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (313.03kB)
+[2019-07-25 17:30:21] Downloading org.eclipse.oomph.setup.edit
+[2019-07-25 17:30:21] Fetching org.apache.commons.codec_1.10.0.v20180409-1845.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (112.2kB)
+[2019-07-25 17:30:22] Downloading org.eclipse.oomph.setup.editor
+[2019-07-25 17:30:22] Fetching org.eclipse.oomph.setup.editor_1.14.0.v20190703-1347.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (160.59kB)
+[2019-07-25 17:30:22] Fetching org.eclipse.oomph.jreinfo.ui_1.10.0.v20180706-1242.jar.pack.gz from https://mirrors.tuna.tsinghua.edu.cn/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (27.1kB)
+[2019-07-25 17:30:22] Downloading org.eclipse.oomph.resources
+[2019-07-25 17:30:22] Downloading org.eclipse.oomph.p2.ui
+[2019-07-25 17:30:22] Downloading org.apache.httpcomponents.httpcore
+[2019-07-25 17:30:22] Fetching org.eclipse.oomph.setup.edit_1.14.0.v20190704-1252.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (55.54kB)
+[2019-07-25 17:30:22] Fetching org.eclipse.oomph.p2.doc_1.10.0.v20180706-1242.jar from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/
+[2019-07-25 17:30:22] Fetching org.eclipse.oomph.resources_1.11.0.v20190523-0419.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (41.84kB)
+[2019-07-25 17:30:22] Fetching org.eclipse.oomph.p2.ui_1.11.0.v20190704-1252.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (112.35kB)
+[2019-07-25 17:30:22] Downloading org.eclipse.oomph.workingsets.editor
+[2019-07-25 17:30:23] Fetching org.eclipse.oomph.setup.core_1.14.0.v20190705-1542.jar from http://mirrors.neusoft.edu.cn/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/features/ (19.28kB)
+[2019-07-25 17:30:23] Downloading org.eclipse.oomph.setup.core
+[2019-07-25 17:30:23] Fetching org.eclipse.oomph.workingsets.editor_1.10.0.v20180904-1112.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (41.81kB)
+[2019-07-25 17:30:23] Downloading org.eclipse.oomph.preferences
+[2019-07-25 17:30:23] Fetching org.apache.httpcomponents.httpcore_4.4.10.v20190123-2214.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (108.91kB)
+[2019-07-25 17:30:23] Downloading org.eclipse.oomph.util
+[2019-07-25 17:30:23] Fetching org.eclipse.oomph.setup.core_1.14.0.v20190705-1542.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (106.52kB)
+[2019-07-25 17:30:23] Downloading org.eclipse.oomph.p2.core
+[2019-07-25 17:30:23] Fetching org.eclipse.oomph.preferences_1.10.0.v20180706-1242.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (34.45kB)
+[2019-07-25 17:30:23] Downloading org.eclipse.oomph.predicates
+[2019-07-25 17:30:23] Fetching org.eclipse.oomph.util_1.12.0.v20190705-1135.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (75.2kB)
+[2019-07-25 17:30:23] Fetching org.eclipse.oomph.p2.core_1.13.0.v20190704-1252.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (74.37kB)
+[2019-07-25 17:30:23] Fetching org.eclipse.oomph.predicates_1.10.0.v20180706-1242.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (25.48kB)
+[2019-07-25 17:30:24] Fetching org.apache.httpcomponents.httpcore_4.4.10.v20190123-2214.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/
+[2019-07-25 17:30:24] Fetching org.eclipse.oomph.setup.core_1.14.0.v20190705-1542.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/
+[2019-07-25 17:30:24] Fetching org.eclipse.oomph.util_1.12.0.v20190705-1135.jar.pack.gz from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/
+[2019-07-25 17:30:26] Fetching org.eclipse.oomph.p2_1.10.0.v20180706-1242.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (33.42kB)
+[2019-07-25 17:30:30] Fetching org.eclipse.nebula.widgets.tablecombo_1.2.0.201907151344.jar from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/plugins/ (36.06kB)
+[2019-07-25 17:30:30] Mirrored 19 artifacts from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 206kb/s
+[2019-07-25 17:30:30] Mirrored 7 artifacts from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 47kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from http://mirrors.syringanetworks.net/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 4kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from http://ftp.osuosl.org/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 3kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from http://mirror.rise.ph/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 3kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from http://ftp.jaist.ac.jp/pub/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 2kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 2kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from https://mirrors.tuna.tsinghua.edu.cn/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 2kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from http://mirrors.ustc.edu.cn/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 1kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from http://mirror.kakao.com/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 1kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from https://ftp.harukasan.org/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 1kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from http://ftp.daumkakao.com/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 1kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from http://mirrors.neusoft.edu.cn/eclipse/oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 1kb/s
+[2019-07-25 17:30:30] Mirrored 1 artifacts from http://mirror.rise.ph/eclipse//oomph/drops/milestone/S20190717-105943-1.14.0-M1/ at 1kb/s
+[2019-07-25 17:30:30] Collected 38 artifacts for http://download.eclipse.org/oomph/updates/milestone/latest in 23.167s
+[2019-07-25 17:30:30] Collecting 493 artifacts from http://download.eclipse.org/releases/2019-06/201906191000
+[2019-07-25 17:30:31] Downloading org.eclipse.platform_root
+[2019-07-25 17:30:31] Downloading org.eclipse.e4.ui.widgets
+[2019-07-25 17:30:31] Downloading org.eclipse.wst.validation.infopop
+[2019-07-25 17:30:31] Downloading org.eclipse.equinox.jsp.jasper.registry
+[2019-07-25 17:30:31] Downloading org.eclipse.e4.core.di.extensions
+[2019-07-25 17:30:31] Downloading ch.qos.logback.slf4j
+[2019-07-25 17:30:31] Downloading org.eclipse.e4.core.di.annotations
+[2019-07-25 17:30:31] Downloading org.eclipse.e4.ui.swt.gtk
+[2019-07-25 17:30:31] Downloading org.eclipse.wst.common.infopop
+[2019-07-25 17:30:31] Downloading org.eclipse.ecf.provider.filetransfer.ssl
+[2019-07-25 17:30:32] Fetching ch.qos.logback.slf4j_1.0.7.v201505121915.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (7.59kB)
+[2019-07-25 17:30:32] Fetching org.eclipse.wst.common.infopop_1.0.300.v201903222010.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (8.74kB)
+[2019-07-25 17:30:32] Fetching org.eclipse.ecf.provider.filetransfer.ssl_1.0.100.v20180301-0132.jar.pack.gz from https://mirrors.tuna.tsinghua.edu.cn/eclipse/releases/2019-06/201906191000/plugins/ (7.37kB)
+[2019-07-25 17:30:32] Fetching org.eclipse.e4.core.di.annotations_1.6.400.v20190518-1217.jar.pack.gz from http://mirrors.ustc.edu.cn/eclipse/releases/2019-06/201906191000/plugins/ (7.69kB)
+[2019-07-25 17:30:32] Fetching org.eclipse.platform_root_4.12.0.v20190605-1801 from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/releases/2019-06/201906191000/binary/ (196B)
+[2019-07-25 17:30:32] Fetching org.eclipse.e4.ui.widgets_1.2.400.v20190510-1100.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (9.48kB)
+[2019-07-25 17:30:32] Fetching org.eclipse.platform_root_4.12.0.v20190605-1801 from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/releases/2019-06/201906191000/binary/ (196B)
+[2019-07-25 17:30:32] Fetching org.eclipse.e4.ui.widgets_1.2.400.v20190510-1100.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (9.48kB)
+[2019-07-25 17:30:32] Downloading org.eclipse.jdt.annotation
+[2019-07-25 17:30:32] Downloading org.eclipse.team.genericeditor.diff.extension
+[2019-07-25 17:30:32] Downloading org.eclipse.m2e.binaryproject.ui
+[2019-07-25 17:30:32] Downloading org.eclipse.ecf.ssl
+[2019-07-25 17:30:32] Fetching org.eclipse.equinox.jsp.jasper.registry_1.1.200.v20190214-1948.jar.pack.gz from http://mirror.kakao.com/eclipse/releases/2019-06/201906191000/plugins/ (8.7kB)
+[2019-07-25 17:30:32] Fetching org.eclipse.wst.validation.infopop_1.0.300.v201903222010.jar.pack.gz from http://mirrors.neusoft.edu.cn/eclipse/releases/2019-06/201906191000/plugins/ (9.4kB)
+[2019-07-25 17:30:32] Fetching org.eclipse.e4.ui.swt.gtk_1.0.500.v20181106-0908.jar.pack.gz from https://ftp.harukasan.org/eclipse/releases/2019-06/201906191000/plugins/ (7.98kB)
+[2019-07-25 17:30:32] Fetching org.eclipse.m2e.binaryproject.ui_1.12.0.20190529-1916.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2019-06/201906191000/plugins/ (9.8kB)
+[2019-07-25 17:30:32] Fetching org.eclipse.ecf.ssl_1.2.200.v20190502-0212.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/2019-06/201906191000/plugins/ (9.93kB)
+[2019-07-25 17:30:32] Fetching org.eclipse.e4.core.di.extensions_0.15.300.v20190213-1308.jar.pack.gz from http://ftp.daumkakao.com/eclipse/releases/2019-06/201906191000/plugins/ (7.77kB)
+[2019-07-25 17:30:32] Downloading org.eclipse.e4.ui.di
+[2019-07-25 17:30:32] Downloading org.eclipse.mylyn.wikitext.markdown.ui
+[2019-07-25 17:30:32] Fetching org.eclipse.jdt.annotation_1.1.400.v20180921-1416.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/2019-06/201906191000/plugins/ (9.52kB)
+[2019-07-25 17:30:32] Downloading org.eclipse.mylyn.wikitext.twiki.ui
+[2019-07-25 17:30:32] Downloading org.eclipse.mylyn.wikitext.asciidoc.ui
+[2019-07-25 17:30:32] Fetching org.eclipse.mylyn.wikitext.markdown.ui_3.0.29.201812180023.jar from http://mirrors.syringanetworks.net/eclipse/releases/2019-06/201906191000/plugins/ (10kB)
+[2019-07-25 17:30:32] Downloading org.eclipse.m2e.lifecyclemapping.defaults
+[2019-07-25 17:30:32] Fetching org.eclipse.team.genericeditor.diff.extension_1.0.300.v20190519-2354.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2019-06/201906191000/plugins/ (9.79kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.mylyn.wikitext.tracwiki.ui
+[2019-07-25 17:30:33] Downloading org.eclipse.m2e.logback.configuration
+[2019-07-25 17:30:33] Downloading org.eclipse.rcp
+[2019-07-25 17:30:33] Fetching org.eclipse.m2e.lifecyclemapping.defaults_1.12.0.20190529-1916.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/2019-06/201906191000/plugins/ (8.17kB)
+[2019-07-25 17:30:33] Fetching org.eclipse.mylyn.wikitext.twiki.ui_3.0.29.201812180023.jar from http://mirrors.syringanetworks.net/eclipse/releases/2019-06/201906191000/plugins/ (10.29kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.core.filesystem.linux.x86_64
+[2019-07-25 17:30:33] Downloading org.eclipse.mylyn.wikitext.mediawiki.ui
+[2019-07-25 17:30:33] Fetching org.eclipse.m2e.logback.configuration_1.12.0.20190529-1916.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2019-06/201906191000/plugins/ (10.88kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.egit
+[2019-07-25 17:30:33] Downloading org.eclipse.mylyn.wikitext.confluence.ui
+[2019-07-25 17:30:33] Fetching org.eclipse.mylyn.wikitext.asciidoc.ui_3.0.29.201812180023.jar from http://mirrors.syringanetworks.net/eclipse/releases/2019-06/201906191000/plugins/ (10.34kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.tips.json
+[2019-07-25 17:30:33] Fetching org.eclipse.egit_5.4.0.201906121030-r.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (9.56kB)
+[2019-07-25 17:30:33] Fetching org.eclipse.mylyn.wikitext.confluence.ui_3.0.29.201812180023.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (11.69kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.buildship.branding
+[2019-07-25 17:30:33] Downloading org.eclipse.mylyn.wikitext.textile.ui
+[2019-07-25 17:30:33] Fetching org.eclipse.mylyn.wikitext.tracwiki.ui_3.0.29.201812180023.jar from http://mirrors.syringanetworks.net/eclipse/releases/2019-06/201906191000/plugins/ (10.43kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.wst.dtd.ui.infopop
+[2019-07-25 17:30:33] Downloading org.eclipse.m2e.profiles.core
+[2019-07-25 17:30:33] Fetching org.eclipse.mylyn.wikitext.textile.ui_3.0.29.201812180023.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (12.27kB)
+[2019-07-25 17:30:33] Fetching org.eclipse.buildship.branding_3.1.0.v20190501-0832.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (10.51kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.wst.sse.ui.infopop
+[2019-07-25 17:30:33] Fetching org.eclipse.rcp_4.12.0.v20190605-1800.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2019-06/201906191000/plugins/ (9.44kB)
+[2019-07-25 17:30:33] Fetching org.eclipse.tips.json_0.1.400.v20190402-1511.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2019-06/201906191000/plugins/ (11.73kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.jdt.junit5.runtime
+[2019-07-25 17:30:33] Fetching org.eclipse.wst.dtd.ui.infopop_1.0.400.v201903222120.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (9.2kB)
+[2019-07-25 17:30:33] Fetching org.eclipse.m2e.profiles.core_1.12.0.20190529-1916.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (12.72kB)
+[2019-07-25 17:30:33] Fetching org.eclipse.jdt.junit5.runtime_1.0.500.v20190510-0840.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (12.74kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.mylyn.wikitext.editors_feature
+[2019-07-25 17:30:33] Fetching org.eclipse.core.filesystem.linux.x86_64_1.2.300.v20180828-0158.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/2019-06/201906191000/plugins/ (10.18kB)
+[2019-07-25 17:30:33] Fetching org.eclipse.mylyn.wikitext.mediawiki.ui_3.0.29.201812180023.jar from http://mirrors.xmission.com/eclipse/releases/2019-06/201906191000/plugins/ (11.43kB)
+[2019-07-25 17:30:33] Downloading org.apache.batik.constants
+[2019-07-25 17:30:33] Fetching org.eclipse.wst.sse.ui.infopop_1.0.300.v201903222120.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (9.24kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.e4.ui.workbench3
+[2019-07-25 17:30:33] Fetching org.eclipse.mylyn.wikitext.editors_feature_3.0.29.201812180023.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (13.03kB)
+[2019-07-25 17:30:33] Downloading org.eclipse.mylyn.wikitext_feature
+[2019-07-25 17:30:33] Fetching org.apache.batik.constants_1.11.0.v20190515-0436.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (13.03kB)
+[2019-07-25 17:30:34] Downloading org.eclipse.e4.ui.services
+[2019-07-25 17:30:34] Fetching org.eclipse.e4.ui.workbench3_0.15.100.v20190513-2118.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (13.07kB)
+[2019-07-25 17:30:34] Downloading org.eclipse.mylyn.wikitext.osgi
+[2019-07-25 17:30:34] Fetching org.eclipse.mylyn.wikitext_feature_3.0.29.201812180023.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (13.28kB)
+[2019-07-25 17:30:34] Downloading org.eclipse.m2e.logback.appender
+[2019-07-25 17:30:34] Downloading org.eclipse.mylyn.versions.ui
+[2019-07-25 17:30:34] Downloading org.eclipse.e4.core.commands
+[2019-07-25 17:30:34] Fetching org.eclipse.e4.ui.services_1.3.500.v20190513-2118.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (13.29kB)
+[2019-07-25 17:30:34] Downloading org.eclipse.m2e.sourcelookup.ui
+[2019-07-25 17:30:34] Fetching org.eclipse.mylyn.wikitext.osgi_3.0.29.201812180023.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (13.39kB)
+[2019-07-25 17:30:34] Fetching org.eclipse.mylyn.versions.ui_1.16.0.v20170629-1738.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (11.03kB)
+[2019-07-25 17:30:34] Downloading javax.inject
+[2019-07-25 17:30:34] Fetching org.eclipse.m2e.sourcelookup.ui_1.12.0.20190529-1916.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (14.02kB)
+[2019-07-25 17:30:34] Downloading org.eclipse.wst.xml.ui.infopop
+[2019-07-25 17:30:34] Downloading org.eclipse.ui.intro.quicklinks
+[2019-07-25 17:30:34] Fetching javax.inject_1.0.0.v20091030.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (14.07kB)
+[2019-07-25 17:30:34] Fetching org.eclipse.m2e.logback.appender_1.12.0.20190529-1916.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (8.65kB)
+[2019-07-25 17:30:34] Fetching org.eclipse.wst.xml.ui.infopop_1.0.400.v201903222120.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (14.24kB)
+[2019-07-25 17:30:34] Downloading org.eclipse.mylyn.commons.notifications.core
+[2019-07-25 17:30:34] Fetching org.eclipse.ui.intro.quicklinks_1.0.300.v20180821-0700.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (14.29kB)
+[2019-07-25 17:30:34] Fetching org.eclipse.e4.core.commands_0.12.600.v20190510-1100.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (13.77kB)
+[2019-07-25 17:30:34] Downloading org.opentest4j
+[2019-07-25 17:30:34] Downloading org.eclipse.jgit.ssh.apache
+[2019-07-25 17:30:34] Downloading org.eclipse.jgit
+[2019-07-25 17:30:34] Downloading org.eclipse.egit.mylyn.ui
+[2019-07-25 17:30:34] Downloading org.eclipse.mylyn.bugzilla.ide
+[2019-07-25 17:30:34] Fetching org.eclipse.mylyn.commons.notifications.core_1.16.0.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (10.45kB)
+[2019-07-25 17:30:34] Fetching org.opentest4j_1.1.1.v20190212-2109.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (14.4kB)
+[2019-07-25 17:30:34] Downloading org.w3c.dom.smil
+[2019-07-25 17:30:34] Fetching org.eclipse.jgit.ssh.apache_5.4.0.201906121030-r.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/features/ (14.46kB)
+[2019-07-25 17:30:34] Fetching org.eclipse.egit.mylyn.ui_5.4.0.201906121030-r.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (14.74kB)
+[2019-07-25 17:30:34] Downloading org.w3c.dom.events
+[2019-07-25 17:30:34] Downloading org.slf4j.impl.log4j12
+[2019-07-25 17:30:34] Fetching org.w3c.dom.smil_1.0.1.v200903091627.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (14.95kB)
+[2019-07-25 17:30:34] Downloading org.eclipse.m2e.workspace.cli
+[2019-07-25 17:30:34] Fetching org.eclipse.jgit_5.4.0.201906121030-r.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/features/ (14.65kB)
+[2019-07-25 17:30:34] Fetching org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (15.35kB)
+[2019-07-25 17:30:34] Fetching org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (15.49kB)
+[2019-07-25 17:30:34] Downloading org.apiguardian
+[2019-07-25 17:30:34] Fetching org.eclipse.m2e.workspace.cli_0.3.1.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (15.56kB)
+[2019-07-25 17:30:34] Fetching org.eclipse.mylyn.bugzilla.ide_3.24.2.v20180905-0014.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (14.81kB)
+[2019-07-25 17:30:34] Downloading org.eclipse.swt
+[2019-07-25 17:30:34] Downloading org.eclipse.mylyn.java.tasks
+[2019-07-25 17:30:34] Fetching org.apiguardian_1.0.0.v20190212-2109.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (12.36kB)
+[2019-07-25 17:30:34] Downloading org.eclipse.mylyn.git.ui
+[2019-07-25 17:30:34] Downloading org.eclipse.e4.core.di.extensions.supplier
+[2019-07-25 17:30:34] Fetching org.eclipse.swt_3.111.0.v20190605-1801.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (16.03kB)
+[2019-07-25 17:30:34] Downloading org.eclipse.equinox.security.linux.x86_64
+[2019-07-25 17:30:34] Fetching org.eclipse.mylyn.java.tasks_3.24.2.v20180905-0014.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (16.09kB)
+[2019-07-25 17:30:35] Fetching org.eclipse.mylyn.git.ui_1.16.0.v20170629-1738.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (16.44kB)
+[2019-07-25 17:30:35] Downloading org.junit.platform.suite.api
+[2019-07-25 17:30:35] Downloading org.eclipse.equinox.event
+[2019-07-25 17:30:35] Fetching org.eclipse.equinox.security.linux.x86_64_1.1.200.v20181106-0957.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (12.67kB)
+[2019-07-25 17:30:35] Downloading org.eclipse.e4.ui.css.swt.theme
+[2019-07-25 17:30:35] Downloading org.slf4j.api
+[2019-07-25 17:30:35] Fetching org.junit.platform.suite.api_1.4.0.v20190212-2109.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (16.65kB)
+[2019-07-25 17:30:35] Fetching org.eclipse.e4.core.di.extensions.supplier_0.15.300.v20190506-1457.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (16.53kB)
+[2019-07-25 17:30:35] Fetching org.eclipse.equinox.event_1.5.100.v20190528-1257.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (16.82kB)
+[2019-07-25 17:30:35] Fetching org.eclipse.e4.ui.css.swt.theme_0.12.300.v20190510-1100.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (16.84kB)
+[2019-07-25 17:30:35] Downloading org.eclipse.equinox.p2.discovery
+[2019-07-25 17:30:35] Fetching org.slf4j.api_1.7.2.v20121108-1250.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (16.96kB)
+[2019-07-25 17:30:35] Downloading org.eclipse.equinox.p2.directorywatcher
+[2019-07-25 17:30:35] Fetching org.eclipse.equinox.p2.discovery_1.1.100.v20180822-1302.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (17.03kB)
+[2019-07-25 17:30:35] Fetching org.eclipse.equinox.p2.directorywatcher_1.2.200.v20190204-0752.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (17.46kB)
+[2019-07-25 17:30:35] Fetching org.eclipse.e4.core.commands_0.12.600.v20190510-1100.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:35] Downloading org.eclipse.m2e.importer
+[2019-07-25 17:30:35] Downloading org.eclipse.epp.logging.aeri.feature
+[2019-07-25 17:30:35] Fetching org.eclipse.m2e.importer_1.12.0.20190529-1916.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (10.43kB)
+[2019-07-25 17:30:35] Fetching org.eclipse.epp.logging.aeri.feature_2.0.7.v20180504-0806.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (17.47kB)
+[2019-07-25 17:30:35] Downloading org.eclipse.mylyn.git.core
+[2019-07-25 17:30:35] Downloading org.eclipse.buildship
+[2019-07-25 17:30:35] Downloading org.eclipse.mylyn.commons.identity
+[2019-07-25 17:30:35] Fetching org.eclipse.mylyn.git.core_1.16.0.v20170629-1738.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (17.51kB)
+[2019-07-25 17:30:35] Fetching org.eclipse.buildship_3.1.0.v20190501-0832.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (17.61kB)
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.monitor
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.discovery
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.commons.identity_1.16.0.v20180904-2231.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (17.85kB)
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.versions
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.monitor_3.24.2.v20180904-2231.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (17.88kB)
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.commons
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.discovery_3.24.2.v20180904-2231.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (17.89kB)
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.versions_1.16.0.v20170629-1738.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.91kB)
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.commons_3.24.2.v20180904-2231.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.91kB)
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.commons.repositories.http
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.tasks.ide
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.team_feature
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.commons.repositories.http_1.16.0.v20180904-2231.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.91kB)
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.team_feature_3.24.2.v20180905-0014.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (17.92kB)
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.tasks.ide_3.24.2.v20180905-0003.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.91kB)
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.git
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.git_1.16.0.v20170629-1738.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.92kB)
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.commons.repositories
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.builds
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.commons.notifications
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.commons.repositories_1.16.0.v20180904-2231.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.93kB)
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.builds_1.16.0.v20180905-1907.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.93kB)
+[2019-07-25 17:30:36] Downloading org.eclipse.mylyn.context_feature
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.commons.notifications_1.16.0.v20180904-2231.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.94kB)
+[2019-07-25 17:30:36] Fetching org.eclipse.mylyn.context_feature_3.24.2.v20180905-0014.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.95kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.mylyn.ide_feature
+[2019-07-25 17:30:37] Downloading org.eclipse.mylyn.hudson
+[2019-07-25 17:30:37] Downloading org.eclipse.mylyn.bugzilla_feature
+[2019-07-25 17:30:37] Downloading org.eclipse.mylyn.java_feature
+[2019-07-25 17:30:37] Downloading org.eclipse.jdt.apt.pluggable.core
+[2019-07-25 17:30:37] Fetching org.eclipse.mylyn.ide_feature_3.24.2.v20180905-0014.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.97kB)
+[2019-07-25 17:30:37] Fetching org.eclipse.mylyn.hudson_1.16.0.v20180403-2055.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (17.99kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.equinox.p2.updatechecker
+[2019-07-25 17:30:37] Fetching org.eclipse.mylyn.java_feature_3.24.2.v20180905-0014.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (18.04kB)
+[2019-07-25 17:30:37] Fetching org.eclipse.mylyn.bugzilla_feature_3.24.2.v20180905-0003.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (18.02kB)
+[2019-07-25 17:30:37] Fetching org.eclipse.e4.ui.di_1.2.600.v20190510-1100.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/2019-06/201906191000/plugins/ (9.97kB)
+[2019-07-25 17:30:37] Fetching org.eclipse.jdt.apt.pluggable.core_1.2.300.v20181206-1038.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (18.07kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.mylyn_feature
+[2019-07-25 17:30:37] Fetching org.eclipse.equinox.p2.updatechecker_1.2.100.v20180827-1122.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (10.89kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.ecf.core.ssl.feature
+[2019-07-25 17:30:37] Fetching org.eclipse.mylyn_feature_3.24.2.v20180905-0003.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (18.55kB)
+[2019-07-25 17:30:37] Fetching org.eclipse.ecf.core.ssl.feature_1.1.200.v20190502-0212.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (18.66kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.ecf.core.feature
+[2019-07-25 17:30:37] Downloading org.eclipse.m2e.sourcelookup
+[2019-07-25 17:30:37] Downloading org.eclipse.egit.mylyn
+[2019-07-25 17:30:37] Fetching org.eclipse.ecf.core.feature_1.5.3.v20190423-0625.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (18.7kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.equinox.p2.user.ui
+[2019-07-25 17:30:37] Downloading org.eclipse.m2e.logback.feature
+[2019-07-25 17:30:37] Downloading org.eclipse.userstorage
+[2019-07-25 17:30:37] Fetching org.eclipse.m2e.sourcelookup_1.12.0.20190529-1916.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (11.04kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.equinox.p2.discovery.feature
+[2019-07-25 17:30:37] Fetching org.eclipse.egit.mylyn_5.4.0.201906121030-r.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (18.89kB)
+[2019-07-25 17:30:37] Fetching org.eclipse.equinox.p2.user.ui_2.4.400.v20190516-1504.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (18.92kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.equinox.p2.rcp.feature
+[2019-07-25 17:30:37] Fetching org.eclipse.m2e.logback.feature_1.12.0.20190529-1916.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (18.97kB)
+[2019-07-25 17:30:37] Fetching org.eclipse.userstorage_1.2.0.v20190308-0433.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (18.98kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.emf.common
+[2019-07-25 17:30:37] Fetching org.eclipse.equinox.p2.discovery.feature_1.2.200.v20190129-1112.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (19.04kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.egit
+[2019-07-25 17:30:37] Downloading org.eclipse.rcp
+[2019-07-25 17:30:37] Fetching org.eclipse.equinox.p2.rcp.feature_1.4.400.v20190516-1504.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (19.05kB)
+[2019-07-25 17:30:37] Downloading org.eclipse.emf.ecore
+[2019-07-25 17:30:38] Downloading org.eclipse.equinox.p2.extras.feature
+[2019-07-25 17:30:38] Fetching org.eclipse.egit_5.4.0.201906121030-r.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (19.1kB)
+[2019-07-25 17:30:38] Fetching org.eclipse.emf.ecore_2.18.0.v20190528-0845.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (19.12kB)
+[2019-07-25 17:30:38] Fetching org.eclipse.equinox.p2.extras.feature_1.4.400.v20190516-1504.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (19.12kB)
+[2019-07-25 17:30:38] Fetching org.eclipse.rcp_4.12.0.v20190605-1801.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/features/ (19.11kB)
+[2019-07-25 17:30:38] Fetching org.eclipse.emf.common_2.16.0.v20190528-0845.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (19.06kB)
+[2019-07-25 17:30:38] Downloading org.eclipse.eclemma.feature
+[2019-07-25 17:30:38] Downloading org.eclipse.m2e.maven.runtime.slf4j.simple
+[2019-07-25 17:30:38] Downloading org.eclipse.mylyn.ide.ant
+[2019-07-25 17:30:38] Fetching org.eclipse.eclemma.feature_3.1.2.201903112331.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (19.19kB)
+[2019-07-25 17:30:38] Downloading org.eclipse.help
+[2019-07-25 17:30:38] Fetching org.eclipse.m2e.maven.runtime.slf4j.simple_1.12.0.20190529-1915.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (19.3kB)
+[2019-07-25 17:30:38] Downloading org.eclipse.equinox.p2.core.feature
+[2019-07-25 17:30:38] Fetching org.eclipse.mylyn.ide.ant_3.24.2.v20180905-0014.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (19.4kB)
+[2019-07-25 17:30:38] Downloading org.eclipse.jdt
+[2019-07-25 17:30:38] Fetching org.eclipse.help_2.2.600.v20190605-1800.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (19.51kB)
+[2019-07-25 17:30:38] Downloading org.eclipse.tips.feature
+[2019-07-25 17:30:38] Downloading org.eclipse.m2e.feature
+[2019-07-25 17:30:38] Fetching org.eclipse.equinox.p2.core.feature_1.6.200.v20190516-1504.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (19.63kB)
+[2019-07-25 17:30:38] Downloading org.eclipse.mylyn.commons.notifications.feed
+[2019-07-25 17:30:38] Fetching org.eclipse.jdt_3.18.0.v20190605-1800.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (19.66kB)
+[2019-07-25 17:30:38] Downloading org.eclipse.buildship.stsmigration
+[2019-07-25 17:30:38] Fetching org.eclipse.tips.feature_0.2.500.v20190402-1511.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (19.9kB)
+[2019-07-25 17:30:38] Fetching org.eclipse.m2e.feature_1.12.0.20190529-1916.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (19.92kB)
+[2019-07-25 17:30:38] Fetching org.eclipse.mylyn.commons.notifications.feed_1.16.0.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (20.03kB)
+[2019-07-25 17:30:38] Fetching org.eclipse.buildship.stsmigration_3.1.0.v20190501-0832.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (10.8kB)
+[2019-07-25 17:30:38] Downloading org.eclipse.epp.mpc
+[2019-07-25 17:30:38] Downloading org.eclipse.ui.net
+[2019-07-25 17:30:38] Downloading org.eclipse.ecf.filetransfer
+[2019-07-25 17:30:38] Fetching org.eclipse.epp.mpc_1.7.7.v20190521-1752.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (20.25kB)
+[2019-07-25 17:30:38] Fetching org.eclipse.ui.net_1.3.400.v20190519-2354.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (20.34kB)
+[2019-07-25 17:30:38] Downloading org.eclipse.platform
+[2019-07-25 17:30:38] Downloading org.eclipse.m2e.binaryproject
+[2019-07-25 17:30:38] Fetching org.eclipse.ecf.filetransfer_5.0.100.v20180301-0132.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (20.34kB)
+[2019-07-25 17:30:38] Downloading org.eclipse.mylyn.hudson.ui
+[2019-07-25 17:30:38] Downloading org.eclipse.jsch.core
+[2019-07-25 17:30:39] Fetching org.eclipse.platform_4.12.0.v20190605-1801.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (20.39kB)
+[2019-07-25 17:30:39] Downloading org.eclipse.e4.rcp
+[2019-07-25 17:30:39] Fetching org.eclipse.m2e.binaryproject_1.12.0.20190529-1916.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (11.19kB)
+[2019-07-25 17:30:39] Fetching org.eclipse.mylyn.hudson.ui_1.16.0.v20170629-2231.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (14.53kB)
+[2019-07-25 17:30:39] Downloading org.junit.jupiter.migrationsupport
+[2019-07-25 17:30:39] Fetching org.eclipse.jsch.core_1.3.500.v20190413-1338.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (20.73kB)
+[2019-07-25 17:30:39] Fetching org.eclipse.e4.rcp_1.6.500.v20190605-1801.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (20.77kB)
+[2019-07-25 17:30:39] Downloading javax.annotation
+[2019-07-25 17:30:39] Downloading org.eclipse.mylyn.versions.core
+[2019-07-25 17:30:39] Downloading org.eclipse.epp.mpc.ui.css
+[2019-07-25 17:30:39] Fetching org.junit.jupiter.migrationsupport_5.4.0.v20190212-2109.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (21.23kB)
+[2019-07-25 17:30:39] Fetching org.eclipse.mylyn.versions.core_1.16.0.v20170629-1738.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (22.38kB)
+[2019-07-25 17:30:39] Fetching javax.annotation_1.2.0.v201602091430.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (21.32kB)
+[2019-07-25 17:30:39] Downloading org.eclipse.ecf.filetransfer.ssl.feature
+[2019-07-25 17:30:39] Fetching org.eclipse.epp.mpc.ui.css_1.7.7.v20190521-1752.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (22.43kB)
+[2019-07-25 17:30:39] Downloading org.eclipse.mylyn.ide.ui
+[2019-07-25 17:30:39] Downloading org.apache.batik.i18n
+[2019-07-25 17:30:39] Downloading org.eclipse.mylyn.commons.xmlrpc
+[2019-07-25 17:30:39] Downloading org.eclipse.e4.ui.dialogs
+[2019-07-25 17:30:39] Fetching org.eclipse.ecf.filetransfer.ssl.feature_1.1.100.v20180301-0132.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (22.69kB)
+[2019-07-25 17:30:39] Fetching org.apache.batik.i18n_1.11.0.v20190515-0436.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (14.52kB)
+[2019-07-25 17:30:39] Fetching org.eclipse.mylyn.ide.ui_3.24.2.v20180905-0014.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (22.85kB)
+[2019-07-25 17:30:39] Downloading org.eclipse.equinox.bidi
+[2019-07-25 17:30:39] Fetching org.eclipse.mylyn.commons.xmlrpc_3.24.2.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (23.66kB)
+[2019-07-25 17:30:39] Fetching org.eclipse.e4.ui.dialogs_1.1.500.v20190513-0736.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (23.85kB)
+[2019-07-25 17:30:39] Downloading org.eclipse.jdt.junit.runtime
+[2019-07-25 17:30:39] Downloading org.eclipse.equinox.p2.garbagecollector
+[2019-07-25 17:30:39] Fetching org.eclipse.equinox.bidi_1.2.0.v20190514-1046.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (23.95kB)
+[2019-07-25 17:30:39] Downloading org.eclipse.jdt.annotation
+[2019-07-25 17:30:39] Downloading org.eclipse.jgit.archive
+[2019-07-25 17:30:39] Fetching org.eclipse.jdt.junit.runtime_3.4.1000.v20190510-0840.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (24.44kB)
+[2019-07-25 17:30:39] Fetching org.eclipse.jdt.annotation_2.2.300.v20190328-1431.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (16.7kB)
+[2019-07-25 17:30:39] Fetching org.eclipse.equinox.p2.garbagecollector_1.1.100.v20180822-1302.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (14kB)
+[2019-07-25 17:30:39] Downloading org.eclipse.rcp_root
+[2019-07-25 17:30:39] Fetching org.eclipse.rcp_root_4.12.0.v20190605-1801 from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/binary/ (25.66kB)
+[2019-07-25 17:30:39] Fetching org.eclipse.jgit.archive_5.4.0.201906121030-r.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (25.24kB)
+[2019-07-25 17:30:39] Downloading org.eclipse.jdt.junit4.runtime
+[2019-07-25 17:30:39] Downloading org.eclipse.e4.core.di
+[2019-07-25 17:30:39] Downloading org.eclipse.equinox.concurrent
+[2019-07-25 17:30:40] Fetching org.eclipse.jdt.junit4.runtime_1.1.1000.v20190510-0840.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (13.2kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.e4.core.di_1.7.200.v20190506-1457.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (25.95kB)
+[2019-07-25 17:30:40] Downloading org.eclipse.wst.xml_userdoc.feature
+[2019-07-25 17:30:40] Downloading org.eclipse.wst.dtdeditor.doc.user
+[2019-07-25 17:30:40] Downloading org.eclipse.equinox.simpleconfigurator.manipulator
+[2019-07-25 17:30:40] Fetching org.eclipse.equinox.concurrent_1.1.300.v20190514-1046.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (12.23kB)
+[2019-07-25 17:30:40] Downloading org.eclipse.wst.xml_core.feature
+[2019-07-25 17:30:40] Fetching org.eclipse.wst.xml_userdoc.feature_3.11.0.v201903222120.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (25.96kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.equinox.simpleconfigurator.manipulator_2.1.200.v20181123-1405.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (16.46kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.wst.dtdeditor.doc.user_1.1.0.v201903222120.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (26kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.equinox.simpleconfigurator.manipulator_2.1.200.v20181123-1405.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (16.46kB)
+[2019-07-25 17:30:40] Downloading org.eclipse.wst.xml_ui.feature
+[2019-07-25 17:30:40] Fetching org.eclipse.wst.xml_core.feature_3.13.0.v201903222120.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (26.11kB)
+[2019-07-25 17:30:40] Downloading org.eclipse.core.databinding.beans
+[2019-07-25 17:30:40] Fetching org.eclipse.wst.xml_ui.feature_3.14.0.v201905291408.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (26.16kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.core.databinding.beans_1.5.0.v20190510-1100.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (26.27kB)
+[2019-07-25 17:30:40] Downloading org.eclipse.mylyn.monitor.core
+[2019-07-25 17:30:40] Downloading org.eclipse.equinox.p2.ui.sdk
+[2019-07-25 17:30:40] Downloading org.eclipse.ecf.filetransfer.httpclient45.feature
+[2019-07-25 17:30:40] Downloading org.eclipse.ecf.filetransfer.feature
+[2019-07-25 17:30:40] Fetching org.eclipse.mylyn.monitor.core_3.24.2.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (26.46kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.equinox.p2.ui.sdk_1.1.200.v20181214-0802.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (26.66kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.mylyn.monitor.core_3.24.2.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (26.46kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.ecf.filetransfer.httpclient45.feature_1.0.0.v20190530-1947.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (26.74kB)
+[2019-07-25 17:30:40] Downloading org.eclipse.mylyn.commons.identity.core
+[2019-07-25 17:30:40] Fetching org.eclipse.ecf.filetransfer.feature_3.14.5.v20190423-0614.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/features/ (26.78kB)
+[2019-07-25 17:30:40] Downloading org.eclipse.mylyn.tasks.index.core
+[2019-07-25 17:30:40] Downloading org.eclipse.userstorage.oauth
+[2019-07-25 17:30:40] Downloading org.eclipse.equinox.jsp.jasper
+[2019-07-25 17:30:40] Downloading org.eclipse.equinox.p2.console
+[2019-07-25 17:30:40] Downloading org.eclipse.m2e.scm
+[2019-07-25 17:30:40] Downloading org.eclipse.equinox.http.jetty
+[2019-07-25 17:30:40] Fetching org.eclipse.mylyn.commons.identity.core_1.16.0.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (27.16kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.userstorage.oauth_1.1.0.v20190307-0457.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (27.73kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.mylyn.tasks.index.core_3.24.2.v20180905-0003.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (27.22kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.equinox.jsp.jasper_1.1.200.v20190214-1948.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (14.66kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.equinox.p2.console_1.1.100.v20180822-1258.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (17.86kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.equinox.http.jetty_3.7.100.v20190516-1504.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (16.62kB)
+[2019-07-25 17:30:40] Downloading org.hamcrest.core
+[2019-07-25 17:30:40] Downloading org.eclipse.equinox.launcher
+[2019-07-25 17:30:40] Downloading org.eclipse.m2e.jdt.ui
+[2019-07-25 17:30:40] Fetching org.hamcrest.core_1.3.0.v20180420-1519.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (29.18kB)
+[2019-07-25 17:30:40] Fetching org.eclipse.m2e.scm_1.12.0.20190529-1916.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (28.39kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.mylyn.tasks.index.ui
+[2019-07-25 17:30:41] Fetching org.eclipse.equinox.launcher_1.5.400.v20190515-0925.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (29.81kB)
+[2019-07-25 17:30:41] Fetching org.eclipse.m2e.jdt.ui_1.12.0.20190529-1916.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (15.8kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.emf.databinding
+[2019-07-25 17:30:41] Fetching org.eclipse.mylyn.tasks.index.ui_3.24.2.v20180905-0003.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (19.36kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.wst.common_ui.feature
+[2019-07-25 17:30:41] Downloading org.eclipse.wst.common_core.feature
+[2019-07-25 17:30:41] Fetching org.eclipse.emf.databinding_1.5.0.v20180706-1146.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (30.52kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.mylyn.wikitext.context.ui
+[2019-07-25 17:30:41] Downloading org.eclipse.mylyn.commons.repositories.core
+[2019-07-25 17:30:41] Fetching org.eclipse.wst.common_ui.feature_3.11.0.v201905071717.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (30.54kB)
+[2019-07-25 17:30:41] Fetching org.eclipse.wst.common_core.feature_3.10.100.v201904082145.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/features/ (30.54kB)
+[2019-07-25 17:30:41] Fetching org.eclipse.mylyn.wikitext.context.ui_3.0.29.201812180023.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (31.44kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.jetty.continuation
+[2019-07-25 17:30:41] Fetching org.eclipse.mylyn.commons.repositories.core_1.16.0.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (31.67kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.equinox.p2.operations
+[2019-07-25 17:30:41] Downloading org.junit.vintage.engine
+[2019-07-25 17:30:41] Downloading org.junit.platform.runner
+[2019-07-25 17:30:41] Fetching org.eclipse.jetty.continuation_9.4.18.v20190429.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (31.79kB)
+[2019-07-25 17:30:41] Fetching org.eclipse.equinox.p2.operations_2.5.400.v20190408-2008.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (31.93kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.core.net
+[2019-07-25 17:30:41] Fetching org.junit.vintage.engine_5.4.0.v20190212-2109.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (32.85kB)
+[2019-07-25 17:30:41] Fetching org.junit.platform.runner_1.4.0.v20190212-2109.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (20.81kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.jsch.ui
+[2019-07-25 17:30:41] Fetching org.eclipse.core.net_1.3.500.v20190519-2354.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (33.61kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.equinox.util
+[2019-07-25 17:30:41] Fetching org.eclipse.jsch.ui_1.3.500.v20190519-2354.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (34.33kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.equinox.p2.touchpoint.natives
+[2019-07-25 17:30:41] Fetching org.eclipse.equinox.util_1.1.200.v20181008-1820.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (34.34kB)
+[2019-07-25 17:30:41] Downloading org.eclipse.m2e.discovery
+[2019-07-25 17:30:41] Fetching org.eclipse.equinox.p2.touchpoint.natives_1.3.200.v20180921-1019.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (34.71kB)
+[2019-07-25 17:30:41] Fetching org.eclipse.m2e.discovery_1.12.0.20190529-1916.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (34.8kB)
+[2019-07-25 17:30:41] Downloading org.apache.felix.gogo.shell
+[2019-07-25 17:30:42] Downloading org.eclipse.equinox.p2.extensionlocation
+[2019-07-25 17:30:42] Fetching org.hamcrest.core_1.3.0.v20180420-1519.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:42] Downloading org.eclipse.core.variables
+[2019-07-25 17:30:42] Fetching org.apache.felix.gogo.shell_1.1.0.v20180713-1646.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (34.83kB)
+[2019-07-25 17:30:42] Downloading org.w3c.css.sac
+[2019-07-25 17:30:42] Downloading org.eclipse.platform.ide.executable.gtk.linux.x86_64
+[2019-07-25 17:30:42] Downloading org.eclipse.equinox.frameworkadmin
+[2019-07-25 17:30:42] Fetching org.eclipse.equinox.p2.extensionlocation_1.3.100.v20180822-1302.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (17.44kB)
+[2019-07-25 17:30:42] Fetching org.eclipse.core.variables_3.4.500.v20190510-0549.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (18.02kB)
+[2019-07-25 17:30:42] Fetching org.w3c.css.sac_1.3.1.v200903091627.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (35.59kB)
+[2019-07-25 17:30:42] Fetching org.eclipse.platform.ide.executable.gtk.linux.x86_64_4.12.0.I20190605-1800 from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/binary/ (35.6kB)
+[2019-07-25 17:30:42] Downloading org.eclipse.mylyn.commons.repositories.http.core
+[2019-07-25 17:30:42] Fetching org.eclipse.equinox.frameworkadmin_2.1.300.v20190318-1320.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (19.48kB)
+[2019-07-25 17:30:42] Downloading org.eclipse.mylyn.debug.ui
+[2019-07-25 17:30:42] Downloading org.eclipse.mylyn.commons.notifications.ui
+[2019-07-25 17:30:42] Downloading org.eclipse.equinox.p2.director.app
+[2019-07-25 17:30:42] Fetching org.eclipse.m2e.scm_1.12.0.20190529-1916.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:42] Downloading org.eclipse.m2e.launching
+[2019-07-25 17:30:42] Fetching org.eclipse.mylyn.commons.repositories.http.core_1.16.0.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (25.79kB)
+[2019-07-25 17:30:42] Fetching org.eclipse.mylyn.commons.notifications.ui_1.16.0.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (37.81kB)
+[2019-07-25 17:30:42] Fetching org.eclipse.mylyn.debug.ui_3.24.2.v20180905-0014.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (24.8kB)
+[2019-07-25 17:30:42] Fetching org.eclipse.equinox.p2.director.app_1.1.200.v20180822-1302.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (37.87kB)
+[2019-07-25 17:30:42] Downloading org.eclipse.ui.views.properties.tabbed
+[2019-07-25 17:30:42] Downloading org.eclipse.equinox.app
+[2019-07-25 17:30:42] Downloading org.eclipse.core.externaltools
+[2019-07-25 17:30:42] Fetching org.eclipse.m2e.launching_1.12.0.20190529-1916.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (40.36kB)
+[2019-07-25 17:30:42] Fetching org.eclipse.ui.views.properties.tabbed_3.8.500.v20190513-2118.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (40.76kB)
+[2019-07-25 17:30:42] Fetching org.eclipse.equinox.app_1.4.200.v20190516-1504.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (41.7kB)
+[2019-07-25 17:30:42] Downloading org.eclipse.core.filebuffers
+[2019-07-25 17:30:42] Fetching org.eclipse.core.externaltools_1.1.300.v20190510-0549.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (20.49kB)
+[2019-07-25 17:30:42] Downloading org.apache.xml.resolver
+[2019-07-25 17:30:42] Fetching org.eclipse.core.filebuffers_3.6.600.v20190519-2344.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (42.02kB)
+[2019-07-25 17:30:42] Downloading org.eclipse.equinox.p2.publisher
+[2019-07-25 17:30:42] Downloading org.eclipse.update.configurator
+[2019-07-25 17:30:42] Fetching org.apache.xml.resolver_1.2.0.v201005080400.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (42.52kB)
+[2019-07-25 17:30:42] Fetching org.eclipse.equinox.p2.publisher_1.5.100.v20180822-1302.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (42.87kB)
+[2019-07-25 17:30:42] Fetching org.eclipse.update.configurator_3.4.300.v20190518-1030.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (43.13kB)
+[2019-07-25 17:30:43] Downloading org.eclipse.equinox.p2.transport.ecf
+[2019-07-25 17:30:43] Downloading org.apache.ws.commons.util
+[2019-07-25 17:30:43] Downloading org.eclipse.equinox.p2.updatesite
+[2019-07-25 17:30:43] Fetching org.eclipse.equinox.p2.transport.ecf_1.2.100.v20180822-1354.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (22.23kB)
+[2019-07-25 17:30:43] Fetching org.apache.ws.commons.util_1.0.1.v20100518-1140.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (22.24kB)
+[2019-07-25 17:30:43] Downloading org.eclipse.osgi.services
+[2019-07-25 17:30:43] Fetching org.eclipse.equinox.p2.updatesite_1.1.100.v20180827-1122.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (43.89kB)
+[2019-07-25 17:30:43] Downloading org.eclipse.jdt
+[2019-07-25 17:30:43] Fetching org.eclipse.osgi.services_3.8.0.v20190206-2147.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (44.03kB)
+[2019-07-25 17:30:43] Downloading org.eclipse.m2e.profiles.ui
+[2019-07-25 17:30:43] Fetching org.eclipse.jdt_3.18.0.v20190605-1800.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (34.11kB)
+[2019-07-25 17:30:43] Fetching org.eclipse.m2e.profiles.ui_1.12.0.20190529-1916.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (20.81kB)
+[2019-07-25 17:30:43] Downloading org.tukaani.xz
+[2019-07-25 17:30:43] Downloading org.eclipse.wst.common.uriresolver
+[2019-07-25 17:30:43] Downloading org.eclipse.core.databinding.property
+[2019-07-25 17:30:43] Fetching org.tukaani.xz_1.8.0.v20180207-1613.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (44.42kB)
+[2019-07-25 17:30:43] Downloading org.eclipse.userstorage.ui
+[2019-07-25 17:30:43] Downloading org.eclipse.e4.ui.bindings
+[2019-07-25 17:30:43] Fetching org.eclipse.wst.common.uriresolver_1.2.300.v201903222010.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (24.72kB)
+[2019-07-25 17:30:43] Fetching org.eclipse.core.databinding.property_1.7.0.v20190510-1100.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (44.79kB)
+[2019-07-25 17:30:43] Downloading org.eclipse.equinox.simpleconfigurator
+[2019-07-25 17:30:43] Fetching org.eclipse.userstorage.ui_1.1.0.v20190307-0457.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (25.54kB)
+[2019-07-25 17:30:43] Downloading org.eclipse.mylyn.tasks.search
+[2019-07-25 17:30:43] Fetching org.eclipse.e4.ui.bindings_0.12.500.v20190510-1100.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (23.01kB)
+[2019-07-25 17:30:43] Downloading org.eclipse.userstorage
+[2019-07-25 17:30:43] Fetching org.eclipse.equinox.simpleconfigurator_1.3.200.v20181101-1115.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (23.9kB)
+[2019-07-25 17:30:43] Downloading org.eclipse.equinox.http.registry
+[2019-07-25 17:30:43] Downloading org.eclipse.mylyn.wikitext.ant
+[2019-07-25 17:30:43] Fetching org.eclipse.core.filebuffers_3.6.600.v20190519-2344.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:43] Fetching org.eclipse.mylyn.tasks.search_3.24.2.v20180905-0003.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (45.25kB)
+[2019-07-25 17:30:44] Fetching org.eclipse.userstorage_1.2.0.v20190307-0457.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (45.26kB)
+[2019-07-25 17:30:44] Fetching org.eclipse.mylyn.wikitext.ant_3.0.29.20181217192207.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (45.87kB)
+[2019-07-25 17:30:44] Fetching org.eclipse.equinox.http.registry_1.1.700.v20190214-1948.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (18.49kB)
+[2019-07-25 17:30:44] Downloading org.eclipse.core.jobs
+[2019-07-25 17:30:44] Fetching org.eclipse.core.jobs_3.10.400.v20190506-1457.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (46.05kB)
+[2019-07-25 17:30:44] Downloading org.eclipse.mylyn.wikitext.tasks.ui
+[2019-07-25 17:30:44] Downloading org.eclipse.mylyn.resources.ui
+[2019-07-25 17:30:44] Downloading org.eclipse.urischeme
+[2019-07-25 17:30:44] Downloading org.eclipse.e4.core.contexts
+[2019-07-25 17:30:44] Fetching org.eclipse.mylyn.wikitext.tasks.ui_3.0.29.201812180023.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (46.11kB)
+[2019-07-25 17:30:44] Fetching org.eclipse.mylyn.resources.ui_3.24.2.v20180905-0014.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (46.28kB)
+[2019-07-25 17:30:44] Fetching org.eclipse.urischeme_1.0.300.v20190514-0858.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (21.42kB)
+[2019-07-25 17:30:44] Fetching org.eclipse.e4.core.contexts_1.8.100.v20190518-1217.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (22.61kB)
+[2019-07-25 17:30:44] Downloading org.eclipse.equinox.p2.ui.sdk.scheduler
+[2019-07-25 17:30:44] Downloading org.eclipse.wst.common.environment
+[2019-07-25 17:30:44] Downloading org.eclipse.equinox.p2.director
+[2019-07-25 17:30:44] Fetching org.eclipse.equinox.p2.ui.sdk.scheduler_1.4.200.v20181102-0649.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (47.35kB)
+[2019-07-25 17:30:44] Downloading org.eclipse.e4.emf.xpath
+[2019-07-25 17:30:44] Fetching org.eclipse.wst.common.environment_1.0.400.v201903222010.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (20.11kB)
+[2019-07-25 17:30:44] Fetching org.eclipse.equinox.p2.director_2.4.300.v20190215-2242.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (48.12kB)
+[2019-07-25 17:30:44] Fetching org.eclipse.e4.emf.xpath_0.2.300.v20190513-2118.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (21.16kB)
+[2019-07-25 17:30:44] Downloading org.eclipse.ui.views
+[2019-07-25 17:30:44] Downloading org.eclipse.mylyn.wikitext.html
+[2019-07-25 17:30:44] Fetching org.eclipse.ui.views_3.9.400.v20190517-1612.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (48.79kB)
+[2019-07-25 17:30:44] Fetching org.eclipse.mylyn.wikitext.html_3.0.29.20181217192207.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (49.16kB)
+[2019-07-25 17:30:44] Downloading org.eclipse.equinox.p2.reconciler.dropins
+[2019-07-25 17:30:44] Downloading org.eclipse.wst.internet.cache
+[2019-07-25 17:30:44] Fetching org.eclipse.equinox.p2.reconciler.dropins_1.3.0.v20181023-0914.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (27.61kB)
+[2019-07-25 17:30:44] Fetching org.eclipse.wst.internet.cache_1.0.800.v201903222010.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (22.72kB)
+[2019-07-25 17:30:44] Downloading org.eclipse.e4.ui.workbench.addons.swt
+[2019-07-25 17:30:44] Downloading org.eclipse.mylyn.wikitext.twiki
+[2019-07-25 17:30:44] Downloading org.eclipse.equinox.console
+[2019-07-25 17:30:44] Downloading org.eclipse.mylyn.monitor.ui
+[2019-07-25 17:30:44] Downloading org.junit.jupiter.api
+[2019-07-25 17:30:44] Fetching org.eclipse.e4.ui.workbench.addons.swt_1.3.500.v20190513-2118.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (49.92kB)
+[2019-07-25 17:30:45] Fetching org.eclipse.mylyn.wikitext.twiki_3.0.29.20181217192207.jar from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (50.56kB)
+[2019-07-25 17:30:45] Fetching org.eclipse.equinox.console_1.3.300.v20190516-1504.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (51.21kB)
+[2019-07-25 17:30:45] Fetching org.eclipse.mylyn.monitor.ui_3.24.2.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (31.25kB)
+[2019-07-25 17:30:45] Fetching org.junit.jupiter.api_5.4.0.v20190212-2109.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (51.95kB)
+[2019-07-25 17:30:45] Downloading org.eclipse.equinox.common
+[2019-07-25 17:30:45] Downloading org.eclipse.equinox.preferences
+[2019-07-25 17:30:45] Downloading javax.el
+[2019-07-25 17:30:45] Downloading org.eclipse.ui.ide.application
+[2019-07-25 17:30:45] Downloading org.eclipse.epp.logging.aeri.core
+[2019-07-25 17:30:45] Fetching org.eclipse.equinox.common_3.10.400.v20190516-1504.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (52.18kB)
+[2019-07-25 17:30:45] Fetching org.eclipse.equinox.preferences_3.7.400.v20190516-1504.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (53.95kB)
+[2019-07-25 17:30:45] Fetching javax.el_2.2.0.v201303151357.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (30.08kB)
+[2019-07-25 17:30:45] Fetching org.eclipse.ui.ide.application_1.3.300.v20190513-2118.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (54.69kB)
+[2019-07-25 17:30:45] Fetching org.eclipse.epp.logging.aeri.core_2.0.7.v20180504-0806.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (54.88kB)
+[2019-07-25 17:30:45] Downloading org.eclipse.equinox.p2.repository
+[2019-07-25 17:30:45] Fetching org.eclipse.equinox.p2.repository_2.4.400.v20190318-1320.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (54.99kB)
+[2019-07-25 17:30:45] Downloading org.eclipse.m2e.jdt
+[2019-07-25 17:30:45] Fetching org.eclipse.equinox.p2.director_2.4.300.v20190215-2242.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:45] Fetching org.eclipse.m2e.jdt_1.12.0.20190529-1916.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (55.66kB)
+[2019-07-25 17:30:45] Downloading org.eclipse.e4.core.services
+[2019-07-25 17:30:45] Downloading org.eclipse.wst.common.ui
+[2019-07-25 17:30:45] Downloading org.eclipse.ui.themes
+[2019-07-25 17:30:45] Downloading org.apache.felix.gogo.command
+[2019-07-25 17:30:45] Fetching org.eclipse.e4.core.services_2.1.400.v20181215-2145.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (23.91kB)
+[2019-07-25 17:30:45] Fetching org.eclipse.wst.common.ui_1.1.700.v201905071717.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (55.84kB)
+[2019-07-25 17:30:45] Downloading org.eclipse.wst.common.core
+[2019-07-25 17:30:45] Fetching org.apache.felix.gogo.command_1.0.2.v20170914-1324.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (31.52kB)
+[2019-07-25 17:30:45] Fetching org.eclipse.ui.themes_1.2.600.v20190513-0458.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (32.45kB)
+[2019-07-25 17:30:46] Fetching org.eclipse.wst.common.core_1.3.0.v201903222010.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (24.02kB)
+[2019-07-25 17:30:46] Downloading org.eclipse.equinox.p2.discovery.compatibility
+[2019-07-25 17:30:46] Downloading javaewah
+[2019-07-25 17:30:46] Fetching org.eclipse.equinox.p2.discovery.compatibility_1.1.100.v20180822-1302.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (27.03kB)
+[2019-07-25 17:30:46] Fetching javaewah_1.1.6.v20160919-1400.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (57.94kB)
+[2019-07-25 17:30:46] Downloading org.eclipse.equinox.p2.artifact.repository
+[2019-07-25 17:30:46] Downloading org.eclipse.mylyn.commons.net
+[2019-07-25 17:30:46] Downloading org.eclipse.ui.monitoring
+[2019-07-25 17:30:46] Fetching org.eclipse.equinox.p2.artifact.repository_1.3.100.v20190330-1646.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (58.1kB)
+[2019-07-25 17:30:46] Downloading org.eclipse.jdt.doc.user
+[2019-07-25 17:30:46] Fetching org.eclipse.mylyn.commons.net_3.24.2.v20180904-2231.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (58.44kB)
+[2019-07-25 17:30:46] Fetching org.eclipse.ui.monitoring_1.1.400.v20190517-1612.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (27.9kB)
+[2019-07-25 17:30:46] Downloading com.ibm.icu
+[2019-07-25 17:30:46] Downloading org.eclipse.platform.doc.user
+[2019-07-25 17:30:46] Fetching org.eclipse.jdt.doc.user_3.15.300.v20190604-0816.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (8.93MB)
+[2019-07-25 17:30:46] Fetching com.ibm.icu_64.2.0.v20190507-1337.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (9.5MB)
+[2019-07-25 17:30:46] Downloading org.eclipse.m2e.maven.runtime
+[2019-07-25 17:30:46] Fetching org.eclipse.platform.doc.user_4.12.0.v20190604-0816.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (7.98MB)
+[2019-07-25 17:30:46] Fetching org.eclipse.m2e.maven.runtime_1.12.0.20190529-1915.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (7.18MB)
+[2019-07-25 17:30:46] Downloading org.eclipse.jdt.core
+[2019-07-25 17:30:47] Fetching org.eclipse.jdt.core_3.18.0.v20190522-0428.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (6.65MB)
+[2019-07-25 17:30:47] Downloading org.eclipse.egit.doc
+[2019-07-25 17:30:47] Downloading org.bouncycastle.bcprov
+[2019-07-25 17:30:47] Fetching org.eclipse.wst.common.ui_1.1.700.v201905071717.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:47] Fetching org.eclipse.ui.themes_1.2.600.v20190513-0458.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:47] Fetching org.apache.felix.gogo.command_1.0.2.v20170914-1324.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:47] Fetching org.eclipse.egit.doc_5.4.0.201906121030-r.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/ (4.45MB)
+[2019-07-25 17:30:47] Downloading org.eclipse.jdt.ui
+[2019-07-25 17:30:47] Fetching org.bouncycastle.bcprov_1.61.0.v20190602-1335.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/ (4.32MB)
+[2019-07-25 17:30:47] Fetching org.eclipse.jdt.doc.user_3.15.300.v20190604-0816.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:47] Fetching com.ibm.icu_64.2.0.v20190507-1337.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:47] Downloading org.apache.lucene.analyzers-smartcn
+[2019-07-25 17:30:47] Fetching org.eclipse.jdt.ui_3.18.0.v20190601-2139.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (4.04MB)
+[2019-07-25 17:30:47] Fetching org.eclipse.platform.doc.user_4.12.0.v20190604-0816.jar.pack.gz from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:47] Fetching org.eclipse.m2e.maven.runtime_1.12.0.20190529-1915.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:48] Fetching org.eclipse.jdt.core_3.18.0.v20190522-0428.jar from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:48] Downloading org.apache.lucene.core
+[2019-07-25 17:30:48] Fetching org.apache.lucene.analyzers-smartcn_8.0.0.v20190404-1858.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (3.42MB)
+[2019-07-25 17:30:48] Fetching org.apache.lucene.core_7.5.0.v20181003-1532.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/ (899.36kB)
+[2019-07-25 17:30:48] Fetching org.eclipse.egit.doc_5.4.0.201906121030-r.jar.pack.gz from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:48] Fetching org.bouncycastle.bcprov_1.61.0.v20190602-1335.jar from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:48] Fetching org.eclipse.jdt.ui_3.18.0.v20190601-2139.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:49] Fetching org.apache.lucene.analyzers-smartcn_8.0.0.v20190404-1858.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:49] Fetching org.apache.lucene.core_7.5.0.v20181003-1532.jar.pack.gz from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/plugins/
+[2019-07-25 17:30:53] Mirrored 149 artifacts from http://mirror.rise.ph/eclipse/releases/2019-06/201906191000/ at 56kb/s with 4 failures
+[2019-07-25 17:30:53] Mirrored 71 artifacts from http://mirror.rise.ph/eclipse//releases/2019-06/201906191000/ at 32kb/s with 4 failures
+[2019-07-25 17:30:53] Mirrored 6 artifacts from http://mirrors.xmission.com/eclipse/releases/2019-06/201906191000/ at 21kb/s
+[2019-07-25 17:30:53] Mirrored 6 artifacts from http://mirrors.syringanetworks.net/eclipse/releases/2019-06/201906191000/ at 20kb/s
+[2019-07-25 17:30:53] Mirrored 1 artifacts from http://mirrors.ustc.edu.cn/eclipse/releases/2019-06/201906191000/ at 20kb/s
+[2019-07-25 17:30:53] Mirrored 1 artifacts from https://mirrors.tuna.tsinghua.edu.cn/eclipse/releases/2019-06/201906191000/ at 20kb/s
+[2019-07-25 17:30:53] Mirrored 1 artifacts from http://ftp.osuosl.org/pub/eclipse/releases/2019-06/201906191000/ at 16kb/s
+[2019-07-25 17:30:53] Mirrored 1 artifacts from http://mirror.kakao.com/eclipse/releases/2019-06/201906191000/ at 14kb/s
+[2019-07-25 17:30:53] Mirrored 1 artifacts from http://eclipse.mirror.rafal.ca/releases/2019-06/201906191000/ at 12kb/s
+[2019-07-25 17:30:53] Mirrored 1 artifacts from https://ftp.harukasan.org/eclipse/releases/2019-06/201906191000/ at 12kb/s
+[2019-07-25 17:30:53] Mirrored 1 artifacts from http://mirrors.neusoft.edu.cn/eclipse/releases/2019-06/201906191000/ at 10kb/s
+[2019-07-25 17:30:53] Mirrored 14 artifacts from http://ftp.jaist.ac.jp/pub/eclipse/releases/2019-06/201906191000/ at 9kb/s with 2 failures
+[2019-07-25 17:30:53] Mirrored 1 artifacts from http://ftp.daumkakao.com/eclipse/releases/2019-06/201906191000/ at 8kb/s
+[2019-07-25 17:30:53] Mirrored 1 artifacts from http://mirror.cc.vt.edu/pub/eclipse/releases/2019-06/201906191000/ at 2kb/s
+[2019-07-25 17:30:53] Mirrored 1 artifacts from http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/releases/2019-06/201906191000/ at 0kb/s
+[2019-07-25 17:30:53] Collected 493 artifacts for http://download.eclipse.org/releases/2019-06/201906191000 in 22.492s
+[2019-07-25 17:30:53] The engine operation was cancelled and the changes are being rolled back.
+[2019-07-25 17:30:53] 

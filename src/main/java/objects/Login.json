@@ -1,0 +1,13 @@
+[
+{
+"userObject":{
+"name_textbox":"By.id('agent_email')",
+"password_textbox":"By.id('agent_password')",
+"signin_button":"By.name('commit')",
+"propertypage_header":"By.xpath('//a[text()='Properties']')",
+"confirmPopup_button":"By.xpath('//*[text()='No Thanks']')",
+"termsAndCondition_button":"By.xpath('//input[@name='commit']')"
+}
+
+}
+]
