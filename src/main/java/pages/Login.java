@@ -77,11 +77,9 @@ public class Login extends ReusableLibrary {
 	
 	private void parselogin(JSONObject employee) throws IOException
     {
-		
-	
-		System.out.println("");
-		getApplication(readPropertyFile("URL"));
-		JSONObject employeeObject = (JSONObject) employee.get("userObject");
+		 System.out.println("");
+		 getApplication(readPropertyFile("URL"));
+		 JSONObject employeeObject = (JSONObject) employee.get("userObject");
          firstName = (String)employeeObject.get("name_textbox")				;
          password = (String) employeeObject.get("password_textbox"); 
          signin = (String) employeeObject.get("signin_button");
@@ -100,20 +98,20 @@ public class Login extends ReusableLibrary {
         EnterTextWithJS(locatorParser(password),passwords);
         ClickJSElement(locatorParser(signin),"SignIn");
         ImplicitWaitSwitch(100);
-        isDisplayed(locatorParser(image),"Manager Portal");
+        //isDisplayed(locatorParser(image),"Manager Portal");
                  
     }
 	public void loginNegative() throws FileNotFoundException, IOException, ParseException {
 		getApplication(readPropertyFile("URL"));
-		 ImplicitWaitSwitch(40);
-		 EnterTextWithJS(locatorParser(jsonParser(jsonPath,"userObject","name_textbox")),jsonParser(jsonData,"user","name_prod"));
-         EnterTextWithJS(locatorParser(jsonParser(jsonPath,"userObject","password_textbox")),jsonParser(jsonData,"user","password_prod"));
-         ClickJSElement(locatorParser(jsonParser(jsonPath,"userObject","signin_button")),"SignIn");
-         ImplicitWaitSwitch(100);
-       if( isDisplayed(locatorParser(jsonParser(jsonPath,"userObject","propertypage_header")),"Manager Portal"))
-       {
+		ImplicitWaitSwitch(40);
+		EnterTextWithJS(locatorParser(jsonParser(jsonPath,"userObject","name_textbox")),jsonParser(jsonData,"user","name_prod"));
+        EnterTextWithJS(locatorParser(jsonParser(jsonPath,"userObject","password_textbox")),jsonParser(jsonData,"user","password_prod"));
+        ClickJSElement(locatorParser(jsonParser(jsonPath,"userObject","signin_button")),"SignIn");
+        ImplicitWaitSwitch(100);
+        if( isDisplayed(locatorParser(jsonParser(jsonPath,"userObject","propertypage_header")),"Manager Portal"))
+        {
     		DriverScript.bResult = true;
-       }
+        }
        else
        {
     	   DriverScript.bResult = false;

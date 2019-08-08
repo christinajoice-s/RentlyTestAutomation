@@ -40,7 +40,7 @@ public class SendInvite1 extends ReusableLibrary
 	}
 
 	public void residentClick() throws Exception
-	{	
+	{	WebDriverWait wait=new WebDriverWait(driver,20);
 		ImplicitWaitSwitch(30);
 		Thread.sleep(5000);																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														//ImplicitWaitSwitch(30);
 		if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","send_invite")),"send_invite"))
@@ -63,8 +63,7 @@ public class SendInvite1 extends ReusableLibrary
         }
         
         
-       ImplicitWaitSwitch(30);
-       Thread.sleep(4000);
+        WebElement element=wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("invitation_first_name")));
         if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","first_name")),"first_name"))
         {
         	

@@ -1,16 +1,28 @@
 
-{
-        "InviteData": 
-	{
-        	"choose_property": "Test (32095)",
-            "fname": "abc",
-            "lname": "xyz",
-            "email": "abc@rently.com",
-            "phno": "1234567890",
-	    "fdate":"20190920"
-        }
+[
+	{    "InviteData1":
+		{
+		"choose_property": "Test (32095)",
+            	"fname": "abc",
+            	"lname": "xyz",
+            	"email": "abc@rently.com",
+            	"phno": "1234567890",
+	    	"fdate":"20190920"
+		},
 
-}
+		"InviteData2":
+		{
+		"choose_property": "Test (32095)",
+            	"fname": "abc1",
+            	"lname": "xyz1",
+            	"email": "abc1@rently.com",
+            	"phno": "1234562890",
+	    	"fdate":"20190920"
+		}
+	}
+]
+
+
 
 
 

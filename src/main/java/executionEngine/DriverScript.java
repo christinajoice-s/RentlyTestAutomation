@@ -96,7 +96,7 @@ public class DriverScript {
 
     }
 
-    @SuppressWarnings("rawtypes")
+    //@SuppressWarnings("rawtypes")
 	private void execute_TestCase() throws Exception {
     	 
             condition = p.getProperty("Precondition");

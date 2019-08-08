@@ -243,15 +243,12 @@ public  class ReusableLibrary extends DriverManager{
 	{
 		
 		JSONParser jsonParserObject = new JSONParser();
-		
-		
-
-        try (FileReader reader = new FileReader(filename))
+		try (FileReader reader = new FileReader(filename))
         {
             Object obj = jsonParserObject.parse(reader);
             JSONArray userlist = (JSONArray) obj;
           userlist.forEach( emp -> {
-				try {
+        	  try {
 					parselogin( (JSONObject) emp ,Object,variable);} 
 				catch (IOException e) {
 					e.printStackTrace();
@@ -396,6 +393,43 @@ public  class ReusableLibrary extends DriverManager{
 	protected void createDriver() {
 		// TODO Auto-generated method stub
 		
+	}
+	public int jsonParserArray(String filename) throws FileNotFoundException, IOException, ParseException 
+	{
+		int len=0;
+		JSONParser jsonParserObject = new JSONParser();
+		try (FileReader reader = new FileReader(filename))
+        {
+            Object obj = jsonParserObject.parse(reader);
+            JSONArray userlist = (JSONArray) obj;
+            JSONArray userlist1= (JSONArray) userlist;
+            len=userlist1.size();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+		return len; 
+		
+	}
+	public int jsonArrayLength(String filename, String Object) throws FileNotFoundException, IOException, ParseException 
+	{
+
+
+	JSONParser jsonParserObject = new JSONParser();
+	int len = 0;
+
+
+	       try (FileReader reader = new FileReader(filename))
+	       {
+	           Object obj = jsonParserObject.parse(reader);
+	           JSONObject jo = (JSONObject) obj;
+	           JSONArray ja = (JSONArray) jo.get(Object); 
+	          len=ja.size();
+	           System.out.println(len);
+	       } catch (FileNotFoundException e) {
+	           e.printStackTrace();
+	       }
+	return len; 
+
 	}
 
 	

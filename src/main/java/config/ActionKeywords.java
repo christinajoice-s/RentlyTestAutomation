@@ -19,11 +19,12 @@ import browserFactory.ReusableLibrary;
 import pages.Devices;
 import pages.Login;
 import pages.Properties;
+import pages.Reservation;
 import pages.SendInvite;
 import pages.SendInvite1;
 
 
-public class ActionKeywords<SendInvite1> extends ReusableLibrary{
+public class ActionKeywords extends ReusableLibrary{
 	DriverManager driverManager;
     protected WebDriver driver;
     static ExtentReports report;
@@ -71,6 +72,10 @@ public class ActionKeywords<SendInvite1> extends ReusableLibrary{
 	 public void invite(String data) throws Exception {
 		 SendInvite s1 = new SendInvite(driver);
 	    	s1.residentClick();
+	 }
+	 public void reserve(String data)throws Exception{
+		 Reservation r1=new Reservation(driver);
+		 r1.reservations();
 	 }
     public void addProperty(String data) throws Exception {
     	Properties page = new Properties(driver);

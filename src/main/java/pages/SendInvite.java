@@ -41,78 +41,87 @@ public class SendInvite extends ReusableLibrary
 
 	public void residentClick() throws Exception
 	{	
-		ImplicitWaitSwitch(30);
-		Thread.sleep(5000);																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														//ImplicitWaitSwitch(30);
-		if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","send_invite")),"send_invite"))
-        {
-			ClickElement(locatorParser(jsonParser(jsonPath,"Invite","send_invite")),"send_invite");
-        }
-		ImplicitWaitSwitch(30);
-        Thread.sleep(1000);
-        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","choose_btn")),"choose_btn"))
-        {
-        	ClickElement(locatorParser(jsonParser(jsonPath,"Invite","choose_btn")),"choose_btn");
-        }
-        Thread.sleep(2000);
-        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","choose_text")),"choose_text"))
-        {	//sendKeysByAction(locatorParser(jsonParser(jsonPath,"Invite","choose_text")),jsonParser(jsonData,"InviteData","choose_property"));
-        	//EnterText(locatorParser(jsonParser(jsonPath,"Invite","choose_text")),jsonParser(jsonData,"InviteData","choose_property"));
-        	WebElement choosetxt = driver.findElement(By.xpath("//*[@data-id='choose_hub']//following-sibling::div//div//input[@aria-label='Search']"));
-        	choosetxt.sendKeys("Test (32095)");
-        	choosetxt.sendKeys(Keys.ENTER);
-        }
-        
-        
-       ImplicitWaitSwitch(30);
-       Thread.sleep(4000);
-        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","first_name")),"first_name"))
-        {
-        	WebElement choosetxt = driver.findElement(By.xpath("//input[@id='invitation_first_name']"));
-        	choosetxt.sendKeys(jsonParser(jsonData,"InviteData","lname"));
-           	//sendKeysByAction(locatorParser(jsonParser(jsonPath,"Invite","first_name")),jsonParser(jsonData,"InviteData","fname"));
-	    }
-        Thread.sleep(2000);
-        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","last_name")),"last_name"))
-        {
-        	sendKeysByAction(locatorParser(jsonParser(jsonPath,"Invite","last_name")),jsonParser(jsonData,"InviteData","lname"));
-	    }
-        Thread.sleep(2000);
-        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","from_date")),"from_date"))
-        {
-        	sendKeysByAction(locatorParser(jsonParser(jsonPath,"Invite","from_date")),jsonParser(jsonData,"InviteData","fdate"));
-	    }
-        Thread.sleep(2000);
-        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","mail")),"mail"))
-        {
-        	sendKeysByAction(locatorParser(jsonParser(jsonPath,"Invite","mail")),jsonParser(jsonData,"InviteData","email"));
-	    }
-        Thread.sleep(1000);
-        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","phno")),"phno"))
-        {
-        	sendNumberByAction(locatorParser(jsonParser(jsonPath,"Invite","phno")),jsonParser(jsonData,"InviteData","phno"));
-        	
-	    }
-        Thread.sleep(1000);
-        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","doorcode")),"code"))
-        {
-        	ClickElement(locatorParser(jsonParser(jsonPath,"Invite","doorcode")),"code");
-	    }
-        Thread.sleep(2000);
-        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","invite_btn")),"invite_btn"))
-        {
-        	ClickElement(locatorParser(jsonParser(jsonPath,"Invite","invite_btn")),"invite_btn");
-	    }
-        Thread.sleep(8000);
-	/*
-	if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","moveout_btn")),"moveout_btn"))
-    {
-		ClickElement(locatorParser(jsonParser(jsonPath,"Invite","moveout_btn")),"moveout_btn");
-		Thread.sleep(3000);
-		driver.switchTo().alert().accept();
-	    }
-	*/
+		int len=jsonParserArray(jsonPath);
+		System.out.println("length of array"+len);
+		for(int i=1;i<=2;i++)
+		{   
+			
+			WebDriverWait wait = new WebDriverWait(driver, 20);	
+			WebElement element1=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","send_invite"))));//ImplicitWaitSwitch(30);
+			if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","send_invite")),"send_invite"))
+	        {
+				ClickElement(locatorParser(jsonParser(jsonPath,"Invite","send_invite")),"send_invite");
+	        }
+			Thread.sleep(1000);
+			WebElement element2=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","choose_btn"))));
+	        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","choose_btn")),"choose_btn"))
+	        {
+	        	ClickElement(locatorParser(jsonParser(jsonPath,"Invite","choose_btn")),"choose_btn");
+	        }
+	        Thread.sleep(1000);
+	        WebElement element3=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","choose_text"))));
+	        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","choose_text")),"choose_text"))
+	        {	
+	        	WebElement choosetxt = driver.findElement(locatorParser(jsonParser(jsonPath,"Invite","choose_text")));
+	        	choosetxt.sendKeys("Test (32095)");
+	        	choosetxt.sendKeys(Keys.ENTER);
+	        }
+	        WebElement element4=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","first_name"))));
+	        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","first_name")),"first_name"))
+	        {
+	        	sendKeysByAction(locatorParser(jsonParser(jsonPath,"Invite","first_name")),jsonParser(jsonData,"InviteData"+i,"fname"));
+	   	    }
+	        Thread.sleep(1000);
+	        WebElement element5=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","last_name"))));
+	        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","last_name")),"last_name"))
+	        {
+	        	sendKeysByAction(locatorParser(jsonParser(jsonPath,"Invite","last_name")),jsonParser(jsonData,"InviteData"+i,"lname"));
+		    }
+	        Thread.sleep(1000);
+	        WebElement element6=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","from_date"))));
+	        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","from_date")),"from_date"))
+	        {
+	        	WebElement dateBox = driver.findElement(locatorParser(jsonParser(jsonPath,"Invite","from_date")));
+	        	dateBox.sendKeys("09252013");
+	        	//sendKeysByAction(locatorParser(jsonParser(jsonPath,"Invite","from_date")),jsonParser(jsonData,"InviteData"+i,"fdate"));
+		    }
+	        Thread.sleep(1000);
+	        WebElement element7=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","mail"))));
+	        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","mail")),"mail"))
+	        {
+	        	sendKeysByAction(locatorParser(jsonParser(jsonPath,"Invite","mail")),jsonParser(jsonData,"InviteData"+i,"email"));
+		    }
+	        Thread.sleep(1000);
+	        WebElement element8=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","phno"))));
+	        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","phno")),"phno"))
+	        {
+	        	sendNumberByAction(locatorParser(jsonParser(jsonPath,"Invite","phno")),jsonParser(jsonData,"InviteData"+i,"phno"));
+	        	
+		    }
+	        Thread.sleep(1000);
+	        WebElement element9=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","doorcode"))));
+	        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","doorcode")),"code"))
+	        {
+	        	ClickElement(locatorParser(jsonParser(jsonPath,"Invite","doorcode")),"code");
+		    }
+	        Thread.sleep(1000);
+	        WebElement element10=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","invite_btn"))));
+	        if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","invite_btn")),"invite_btn"))
+	        {
+	        	ClickElement(locatorParser(jsonParser(jsonPath,"Invite","invite_btn")),"invite_btn");
+		    }
+	        Thread.sleep(4000);
+		    /*
+		    if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","moveout_btn")),"moveout_btn"))
+	        {
+				ClickElement(locatorParser(jsonParser(jsonPath,"Invite","moveout_btn")),"moveout_btn");
+				Thread.sleep(3000);
+				driver.switchTo().alert().accept();
+		    }
+		    */
+	        
+		}
+		
 	}
-	
-	
-	
+		
 }
