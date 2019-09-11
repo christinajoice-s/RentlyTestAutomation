@@ -1,0 +1,8 @@
+{
+"reserve":{
+	"last_elem":"By.xpath('//*[@id='reservation_table_ajax']/tbody/tr/td[12]')",
+	"create_reserve":"By.xpath('//a[@href='/companies/2/reservations/new']')",
+	"guest":"By.xpath('//input[@id='name']')",
+	}
+}
+

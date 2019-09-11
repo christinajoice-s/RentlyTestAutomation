@@ -26,7 +26,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 
 
@@ -243,15 +245,12 @@ public  class ReusableLibrary extends DriverManager{
 	{
 		
 		JSONParser jsonParserObject = new JSONParser();
-		
-		
-
-        try (FileReader reader = new FileReader(filename))
+		try (FileReader reader = new FileReader(filename))
         {
             Object obj = jsonParserObject.parse(reader);
             JSONArray userlist = (JSONArray) obj;
           userlist.forEach( emp -> {
-				try {
+        	  try {
 					parselogin( (JSONObject) emp ,Object,variable);} 
 				catch (IOException e) {
 					e.printStackTrace();
@@ -397,6 +396,55 @@ public  class ReusableLibrary extends DriverManager{
 		// TODO Auto-generated method stub
 		
 	}
+	public int jsonParserArray(String filename) throws FileNotFoundException, IOException, ParseException 
+	{
+		int len=0;
+		JSONParser jsonParserObject = new JSONParser();
+		try (FileReader reader = new FileReader(filename))
+        {
+            Object obj = jsonParserObject.parse(reader);
+            JSONArray userlist = (JSONArray) obj;
+            JSONArray userlist1= (JSONArray) userlist;
+            len=userlist1.size();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+		return len; 
+		
+	}
+	public int jsonParserArray1(String filename,JSONArray arr) throws FileNotFoundException, IOException, ParseException 
+	{
+		int len=0;
+		try (FileReader reader = new FileReader(filename))
+        {
+          len=arr.size();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+		return len; 
+		
+	}
+	public int jsonArrayLength(String filename, String Object) throws FileNotFoundException, IOException, ParseException 
+	{
+
+
+	JSONParser jsonParserObject = new JSONParser();
+	int len = 0;
+
+
+	       try (FileReader reader = new FileReader(filename))
+	       {
+	           Object obj = jsonParserObject.parse(reader);
+	           JSONObject jo = (JSONObject) obj;
+	           JSONArray ja = (JSONArray) jo.get(Object); 
+	          len=ja.size();
+	           System.out.println(len);
+	       } catch (FileNotFoundException e) {
+	           e.printStackTrace();
+	       }
+	return len; 
+	}
+	
 
 	
 }

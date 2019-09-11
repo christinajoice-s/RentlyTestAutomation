@@ -1,5 +1,5 @@
 [
-{
+{ 
 "Invite":{
 "search":"By.id('open_invite_modal')",
 "choose_btn":"By.xpath('//button[@data-id='choose_hub']')",
