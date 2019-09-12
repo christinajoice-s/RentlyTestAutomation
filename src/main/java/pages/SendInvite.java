@@ -43,7 +43,11 @@ public class SendInvite extends ReusableLibrary
 	public void residentClick() throws Exception
 	{	
 		
-		
+		if(isDisplayed(locatorParser(jsonParser(jsonPath,"Invite","502badgateway")),"502BadGateway")==true) {
+			Thread.sleep(1000);
+			refresh();
+		}
+		else {
 			
 			JSONParser jsonParserObject = new JSONParser();
 			try (FileReader reader = new FileReader(jsonData))
@@ -98,11 +102,13 @@ public class SendInvite extends ReusableLibrary
 					WebElement element10=wait.until(ExpectedConditions.visibilityOfElementLocated(locatorParser(jsonParser(jsonPath,"Invite","invite_btn"))));
 					ClickElement(locatorParser(jsonParser(jsonPath,"Invite","invite_btn")),"invite_btn");
 					Thread.sleep(2000);        
-				} 
+          } 
        }catch (IOException e) {
     		e.printStackTrace();
     		}
 		}
+	        
+	}
 	public void refresh() throws Exception{
 		
 		driver.get("https://keyless.bluerently.com/occupants");
@@ -117,6 +123,7 @@ public class SendInvite extends ReusableLibrary
 		driver.switchTo().alert().accept();
 		
 	}
+
 }
 		
 
