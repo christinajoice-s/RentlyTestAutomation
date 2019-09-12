@@ -1,0 +1,21 @@
+
+{
+"Invite":{
+"search":"By.id('open_invite_modal')",
+"choose_btn":"By.xpath('//button[@data-id='choose_hub']')",
+"send_invite":"By.xpath('//a[@id='open_invite_modal']')",
+"choose_text":"By.xpath('//*[@data-id='choose_hub']//following-sibling::div//div//input[@class='form-control']')",
+"first_name":"By.id('invitation_first_name')",
+"last_name":"By.id('invitation_last_name')",
+"from_date":"By.xpath('//input[@id='invitation_from_date']')",
+"to_date":"By.xpath('//input[@id='invitation_to_date']')",
+"mail":"By.xpath('//input[@id='invitation_email']')",
+"phno":"By.xpath('//input[@id='invitation_phone']')",
+"doorcode":"By.xpath('//button[contains(text(),'Generate Random Code')]')",
+"invite_btn":"By.id('invitation_send')",
+"moveout_btn":"By.id('remove_all_invitation')",
+"resident_link":"By.xpath('//a[*/text()='Residents']')",
+"sample":"By.id('search_by_resident_property_name')"
+}
+}
+

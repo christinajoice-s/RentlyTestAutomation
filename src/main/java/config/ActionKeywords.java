@@ -18,6 +18,10 @@ import browserFactory.DriverType;
 import browserFactory.ReusableLibrary;
 import pages.Devices;
 import pages.Login;
+<<<<<<< HEAD
+=======
+import pages.Properties;
+>>>>>>> c3e6915821ce52911fde47c479f523aed2d0250c
 import pages.Reservation;
 import pages.SendInvite;
 
@@ -75,7 +79,18 @@ public class ActionKeywords extends ReusableLibrary{
 		 Reservation r1=new Reservation(driver);
 		 r1.reservations();
 	 }
+<<<<<<< HEAD
     
+=======
+    public void addProperty(String data) throws Exception {
+    	Properties page = new Properties(driver);
+    	page.addProperty();
+    }
+    public void marketStatusCheck(String data) throws FileNotFoundException, IOException, ParseException, InterruptedException {
+    	Properties page = new Properties(driver);
+    	page.selectProperty();
+    }
+>>>>>>> c3e6915821ce52911fde47c479f523aed2d0250c
     public void addDevicetoProperty(String data) throws Exception
     {
     	Devices page = new Devices(driver);

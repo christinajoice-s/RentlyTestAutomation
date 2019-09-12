@@ -112,8 +112,8 @@ public class SendInvite extends ReusableLibrary
 		driver.get("https://keyless.bluerently.com/occupants");
 
 		driver.navigate().refresh();
-	}
-	
+	        
+		}
 }
 		
 

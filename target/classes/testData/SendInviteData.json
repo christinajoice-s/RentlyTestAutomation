@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
 {
 		"InviteData":{
@@ -12,14 +13,37 @@
 },
 {		"InviteData":{
 				"choose_property": "Test (32095)",
+=======
+
+[
+	{    "InviteData1":
+		{
+		"choose_property": "Test (32095)",
+            	"fname": "abc",
+            	"lname": "xyz",
+            	"email": "abc@rently.com",
+            	"phno": "1234567890",
+	    	"fdate":"20190920"
+		},
+
+		"InviteData2":
+		{
+		"choose_property": "Test (32095)",
+>>>>>>> c3e6915821ce52911fde47c479f523aed2d0250c
             	"fname": "abc1",
             	"lname": "xyz1",
             	"email": "abc1@rently.com",
             	"phno": "1234562890",
+<<<<<<< HEAD
 	    		"fdate":"2019-09-21",
 	    		"tdate":"2019-09-21"
 		}
 }
+=======
+	    	"fdate":"20190920"
+		}
+	}
+>>>>>>> c3e6915821ce52911fde47c479f523aed2d0250c
 ]
 
 
